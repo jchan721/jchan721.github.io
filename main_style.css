@@ -3,3 +3,9 @@
     float: right;
     height: 48px;
 }
+
+.main_search
+{
+    align-items: center;
+    height: 290px;
+}

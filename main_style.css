@@ -1,6 +1,5 @@
 .navigation
 {
-    position: relative;
-    right: 0px;
+    float: right;
     height: 48px;
 }

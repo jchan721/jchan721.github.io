@@ -7,7 +7,7 @@
 
 .main_search
 {
-    display: flex;
+    position: fixed;
     align-items: center;
     height: 290px;
 }

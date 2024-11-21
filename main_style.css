@@ -34,4 +34,9 @@ input[type=text]
     border-color: rgb(31,31,31);
     border-radius: 24px;
     box-sizing: border-box;
-  }
+}
+.search_button
+{
+box-sizing: border-box;
+padding-top: 18px;
+}

@@ -5,6 +5,7 @@
     width: auto;
     display: block;
     padding: 6px;
+    box-sizing: border-box;
 }
 
 .center_search

@@ -3,6 +3,7 @@
     float: right;
     height: 48px;
     width: auto;
+    display: block;
 }
 
 .center_search

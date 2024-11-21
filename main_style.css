@@ -22,7 +22,6 @@
 {
     position: relative;
     align-items: center;
-    height: 92px;
     flex-direction: column;
     padding: 20px;
 }

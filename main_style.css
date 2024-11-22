@@ -5,11 +5,10 @@ body
 
 .navigation
 {
-    float: right;
     height: 48px;
     width: auto;
-    display: inline-block;
-    padding: 6px;
+    display: flex;
+    justify-content: right;
     box-sizing: border-box;
 }
 

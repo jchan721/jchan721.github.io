@@ -35,6 +35,7 @@ body
     flex-direction: column;
     justify-content: center;
     padding-top: 6px;
+    width: 582px;
 }
 
 input[type=text] 

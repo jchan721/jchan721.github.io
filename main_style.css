@@ -39,7 +39,7 @@ body
     width: 582px;
 }
 
-input[type=text] 
+input[type=text]
 {
     border: 1px;
     border-style: solid;
@@ -103,7 +103,6 @@ margin-left: 45px;
 .box_sub
 {
     border-width: 1px;
-    border-radius: 1px;
     height: 29px;
     width: 384.469px;
 }

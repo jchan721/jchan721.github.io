@@ -58,3 +58,52 @@ border-color: rgb(248, 249, 250);
 display: flex;
 justify-content: center;
 }
+
+.adv_bar
+{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.adv_body
+{
+margin-top: 40px;
+margin-left: 45px;
+}
+
+.adv_head
+{
+    height: 42px;
+}
+.adv_section
+{
+
+}
+
+.sub_spacing
+{
+    width: 167px;
+    height: 42px;
+}
+
+.adv_sub
+{
+    font-size: 13px;
+}
+
+.box_spacing
+{
+    height: 41px;
+    width: 384.469px;
+}
+
+.box_sub
+{
+    border-width: 1px;
+    border-radius: 1px;
+    height: 29px;
+    width: 384.469px;
+}

@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Google</title>
-        <link rel="icon" type="image/x-icon" href="/images/Google-favicon-2015.png">
-        <link rel="stylesheet" href="main_style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-         <div class="navigation">
-            <div class="navi_cat">
+
+<head>
+    <title>Google</title>
+    <link rel="icon" type="image/x-icon" href="/images/Google-favicon-2015.png">
+    <link rel="stylesheet" href="main_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="navi_cat">
             <a href="index.html">Search</a>
             <a href="images.html">Image</a>
+        </div>
+    </div>
+    <div class="adv_bar">
+        <label style="margin-left: 10px;"> Advance Search</label>
+    </div>
+    <div class="adv_body">
+        <form action="https://www.google.com/search" method="get">
+            <div class="adv_head">
+                <span>Find pages with...</span>
             </div>
-         </div>
-         <div class="adv_bar">
-            <label style="margin-left: 10px;"> Advance Search</label>
-         </div>
-         <div class="adv_body">
-            <form action="https://www.google.com/search" method="get">
-                <div class="adv_head">
-                    <span>Find pages with...</span>
-                </div>
-            
-                <div class="adv_section">
-                    <div class="sub_spacing">
-                        <div class="adv_sub">
-                            <label for="all_words">all these words:</label>
-                            <div class="box_spacing">
-                                <div class="box_sub">
-                                    <input class="sub_text_input" type="text" id="all_words">
-        
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
 
-            </form>
-         </div>
-    </body>
+            <div class="adv_section">
+                <div class="sub_spacing">
+                    <div class="adv_sub">
+                        <label for="all_words">all these words:</label>
+                    </div>
+                </div>
+                <div class="box_spacing">
+                    <div class="box_sub">
+                        <input class="sub_text_input" type="text" id="all_words">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>

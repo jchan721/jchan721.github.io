@@ -70,35 +70,46 @@ input[type=text] {
     height: 42px;
 }
 
-.adv_section {}
+.adv_section {
+    display: block;
+}
 
-.section {}
+.section {
+    display: block;
+}
 
 .sub_spacing {
     width: 167px;
     height: 42px;
     float: left;
+    display: block;
 }
 
 .adv_sub {
     font-size: 13px;
     height: 30px;
+    display: block;
 }
 
 .box_spacing {
     height: 41px;
     width: 384.469px;
     float: left;
+    display: block;
 }
 
 .box_sub {
     border-width: 1px;
     height: 29px;
     width: 384.469px;
+    display: block;
 }
 
 .sub_text_input {
     height: auto;
+    display: block;
 }
 
-.input_button {}
+.input_button {
+    display: block;
+}

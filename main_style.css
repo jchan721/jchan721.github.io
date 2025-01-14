@@ -88,6 +88,7 @@ margin-left: 45px;
 {
     width: 167px;
     height: 42px;
+    float: left;
 }
 
 .adv_sub
@@ -100,6 +101,7 @@ margin-left: 45px;
 {
     height: 41px;
     width: 384.469px;
+    float: left;
 }
 
 .box_sub

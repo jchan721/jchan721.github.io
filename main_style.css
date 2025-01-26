@@ -68,8 +68,7 @@ input[type=text] {
 }
 
 .adv_head {
-    height: 42px;
-}
+display: block;}
 
 .adv_section {
     display: block;

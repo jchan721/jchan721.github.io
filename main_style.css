@@ -107,7 +107,6 @@ input[type=text] {
 }
 input[type="text1"] {
     width: 100%;
-    padding: 8px;
     border: 1px solid #ddd;
     font-size: 13px;
     border-radius: 1px;

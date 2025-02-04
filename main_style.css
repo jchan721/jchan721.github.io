@@ -78,7 +78,7 @@ input[type=text] {
 .row
 {
     font-size: 16px;
-    display: block;
+    display: flex;
 }
 .fill {
     font-size: 13px;

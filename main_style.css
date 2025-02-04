@@ -78,6 +78,7 @@ input[type=text] {
 .row
 {
     font-size: 16px;
+    display: block;
 }
 .fill {
     font-size: 13px;
@@ -85,6 +86,8 @@ input[type=text] {
     color: #222;
     margin-bottom: 5px;
     width: 16%;
+    float: left;
+    display: block;
 }
 
 .terms {
@@ -92,6 +95,8 @@ input[type=text] {
     align-items: center;
     gap: 8px;
     width: 50%;
+    display: block;
+    float: left;
 }
 .fill_right
 {

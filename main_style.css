@@ -94,7 +94,6 @@ input[type=text] {
 .terms {
     display: flex;
     align-items: center;
-    gap: 8px;
     width: 50%;
     display: block;
     float: left;

@@ -75,12 +75,13 @@ input[type=text] {
     gap: 10px;
     max-width: 100%;
 }
-.row
-{
+
+.row {
     font-size: 16px;
     display: flex;
     vertical-align: middle;
 }
+
 .fill {
     font-size: 13px;
     font-weight: bold;
@@ -102,10 +103,11 @@ input[type=text] {
     min-height: 42px;
 
 }
-.fill_right
-{
+
+.fill_right {
     width: 34%;
 }
+
 input[type="text1"] {
     width: 100%;
     padding-top: 8px;
@@ -118,4 +120,8 @@ input[type="text1"] {
 .to {
     font-size: 13px;
     color: #222;
+}
+
+button[type="submit"] {
+    float: right;
 }

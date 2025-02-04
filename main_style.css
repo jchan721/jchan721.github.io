@@ -68,4 +68,30 @@ input[type=text] {
 }
 
 .adv_head {
-display: block;}
+    display: block;
+}
+
+.fill {
+    float: left;
+    display: flex;
+    align-items: center;
+    min-width: 167px;
+    width: 10%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.terms {
+    float: left;
+    display: flex;
+    align-items: center;
+    min-width: 167px;
+    width: 31%;
+    height: 30px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}

@@ -55,80 +55,50 @@ input[type=text] {
 
 .adv_bar {
     font-size: 20px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 35px;
-    margin-right: 35px;
+    font-weight: bold;
+    margin: 20px 35px;
 }
 
 .adv_body {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 45px;
+    margin: 40px 45px;
 }
 
 .adv_head {
-    display: block;
-    width: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.search_fill {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
 }
 
 .fill {
-    float: left;
-    display: flex;
-    align-items: center;
-    min-width: 167px;
-    width: 10%;
-    height: 42px;
+    font-size: 14px;
+    font-weight: bold;
     color: #222;
-    font-size: 13px;
-    line-height: 16px;
-    vertical-align: middle;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .terms {
-    float: left;
     display: flex;
     align-items: center;
-    min-width: 167px;
-    width: 31%;
-    height: 30px;
-    vertical-align: middle;
-    margin-bottom: 10px;
+    gap: 8px;
 }
 
-input[type=text2] {
-    border: 1px;
-    border-style: solid;
-    border-color: rgb(223, 225, 229);
-    font-size: 13px;
-    box-sizing: border-box;
-    width: 428px;
-}
-
-input[type=text3] {
-    border: 1px;
-    border-style: solid;
-    border-color: rgb(223, 225, 229);
-    font-size: 13px;
-    box-sizing: border-box;
-    width: 428px;
-}
-
-input[type=text4] {
-    border: 1px;
-    border-style: solid;
-    border-color: rgb(223, 225, 229);
-    font-size: 13px;
-    box-sizing: border-box;
-    width: 428px;
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
 .to {
-    width: 40px;
-    padding-right: 6px;
-    padding-left: 6px;
-    text-align: center;
-    font-size: 13px;
-    color: #dddee1;
+    padding: 0 8px;
+    font-size: 14px;
+    color: #555;
 }

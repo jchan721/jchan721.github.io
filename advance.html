@@ -12,53 +12,58 @@
     <div class="navigation">
         <div class="navi_cat">
             <a href="index.html">Search</a>
-            <a href="images.html">Image</a>
+            <a href="images.html">Images</a>
         </div>
     </div>
-    <div class="adv_bar">
-        <label style="margin-left: 10px;"> Advance Search</label>
-    </div>
+
+    <div class="adv_bar">Advanced Search</div>
+
     <div class="adv_body">
         <form action="https://www.google.com/search" method="get">
-            <div class="adv_head">
-                <span>Find pages with...</span>
-            </div>
+            <div class="adv_head">Find pages with...</div>
+
             <div class="search_fill">
-                <div class="fill">
-                    <a>all these words:</a>
-                </div>
-                <div class="terms">
-                    <input type="text2" name="all_word">
-                </div>
-                <div class="fill">
-                    <a>this exact word or phrase:</a>
-                </div>
-                <div class="terms">
-                    <input type="text2" name="exact_word">
-                </div>
-                <div class="fill">
-                    <a>any of these words:</a>
-                </div>
-                <div class="terms">
-                    <input type="text2" name="any_word">
-                </div>
-                <div class="fill">
-                    <a>none of these words:</a>
-                </div>
-                <div class="terms">
-                    <input type="text2" name="none_word">
-                </div>
-                <div class="fill">
-                    <a>numbers ranging from:</a>
-                </div>
-                <div class="terms">
-                    <input type="text3" name="numbers_from">
-                    <div class="to">
-                        to
+                <div>
+                    <label class="fill">All these words:</label>
+                    <div class="terms">
+                        <input type="text" name="as_q">
                     </div>
-                    <input type="text4" name="numbers_to">
                 </div>
+
+                <div>
+                    <label class="fill">This exact word or phrase:</label>
+                    <div class="terms">
+                        <input type="text" name="as_epq">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="fill">Any of these words:</label>
+                    <div class="terms">
+                        <input type="text" name="as_oq">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="fill">None of these words:</label>
+                    <div class="terms">
+                        <input type="text" name="as_eq">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="fill">Numbers ranging from:</label>
+                    <div class="terms">
+                        <input type="text" name="as_nlo" placeholder="From">
+                        <span class="to">to</span>
+                        <input type="text" name="as_nhi" placeholder="To">
+                    </div>
+                </div>
+
+                <button type="submit" class="search-button">Advanced Search</button>
             </div>
         </form>
     </div>
 </body>
+
+</html>

@@ -95,3 +95,11 @@ input[type=text] {
     vertical-align: middle;
     margin-bottom: 10px;
 }
+input[type=text2] {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(223, 225, 229);
+    font-size: 13px;
+    box-sizing: border-box;
+    width: 428px;
+}

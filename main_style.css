@@ -81,7 +81,7 @@ input[type=text] {
     font-weight: bold;
     color: #222;
     margin-bottom: 5px;
-    width: 10%;
+    width: 16%;
 }
 
 .terms {
@@ -90,7 +90,10 @@ input[type=text] {
     gap: 8px;
     width: 50%;
 }
-
+.fill_right
+{
+    width: 34%;
+}
 input[type="text1"] {
     width: 100%;
     padding: 8px;

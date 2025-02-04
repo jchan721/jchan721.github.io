@@ -104,3 +104,30 @@ input[type=text2] {
     box-sizing: border-box;
     width: 428px;
 }
+
+input[type=text3] {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(223, 225, 229);
+    font-size: 13px;
+    box-sizing: border-box;
+    width: 428px;
+}
+
+input[type=text4] {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(223, 225, 229);
+    font-size: 13px;
+    box-sizing: border-box;
+    width: 428px;
+}
+
+.to {
+    width: 40px;
+    padding-right: 6px;
+    padding-left: 6px;
+    text-align: center;
+    font-size: 13px;
+    color: #dddee1;
+}

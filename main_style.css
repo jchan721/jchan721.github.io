@@ -88,6 +88,7 @@ input[type=text] {
     width: 16%;
     float: left;
     display: block;
+    min-width: 167px;
 }
 
 .terms {
@@ -97,6 +98,8 @@ input[type=text] {
     width: 50%;
     display: block;
     float: left;
+    min-width: 167px;
+
 }
 .fill_right
 {

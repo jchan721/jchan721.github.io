@@ -79,6 +79,7 @@ input[type=text] {
 {
     font-size: 16px;
     display: flex;
+    vertical-align: middle;
 }
 .fill {
     font-size: 13px;

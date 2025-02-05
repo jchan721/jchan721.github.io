@@ -91,6 +91,7 @@ input[type=text] {
     float: left;
     display: block;
     min-width: 167px;
+    vertical-align: middle;
 }
 
 .terms {
